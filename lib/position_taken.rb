@@ -3,7 +3,7 @@
 def position_taken?(board, index)
   value = board[index]
 
-  if(value == null)
+  if(value == nil)
     value = ""
   end
 

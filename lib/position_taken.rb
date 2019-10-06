@@ -3,5 +3,9 @@
 def position_taken?(board, index)
   value = board[index]
 
+  if(value == null)
+    value = ""
+  end
+
   return value.strip != nil
 end

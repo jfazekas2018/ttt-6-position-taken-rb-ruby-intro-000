@@ -7,5 +7,5 @@ def position_taken?(board, index)
     value = ""
   end
 
-  return value.strip != nil
+  return value.strip != ""
 end

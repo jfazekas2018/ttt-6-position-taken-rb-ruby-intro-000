@@ -3,5 +3,5 @@
 def position_taken(board, index)
   value = board[index]
 
-  return value.strip == nil
+  return value.strip != nil
 end
